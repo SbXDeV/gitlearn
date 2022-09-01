@@ -1,0 +1,201 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>CyberNET - Веб-студия в г.Ульяновск</title>
+    <meta name="description" content="Создание сайтов в Ульяновске">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="/static/assets/img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/static/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/static/assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="/static/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/static/assets/css/slick.css">
+    <link rel="stylesheet" href="/static/assets/css/preloader.css">
+    <link rel="stylesheet" href="/static/assets/css/main.css">
+</head>
+
+<body>
+    <!-- preloader  -->
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                <div class="spinner"></div>
+                <div class="txt-loading">
+                    <span data-text-preloader="c" class="letters-loading">
+                        c
+                    </span>
+                    <span data-text-preloader="y" class="letters-loading">
+                        y
+                    </span>
+                    <span data-text-preloader="b" class="letters-loading">
+                        b
+                    </span>
+                    <span data-text-preloader="e" class="letters-loading">
+                        e
+                    </span>
+                    <span data-text-preloader="r" class="letters-loading">
+                        r
+                    </span>
+                    <span data-text-preloader="N" class="letters-loading">
+                        N
+                    </span>
+                    <span data-text-preloader="E" class="letters-loading">
+                        E
+                    </span>
+                    <span data-text-preloader="T" class="letters-loading">
+                        T
+                    </span>
+                </div>
+            </div>
+            <div class="loader">
+                <div class="row">
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-left">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                    <div class="col-3 loader-section section-right">
+                        <div class="bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader end -->
+    <header>
+        <div id="home" class="transparent-header">
+            <div class="header__area header-sticky">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+                            <div class="logo">
+                                <a href="index.html">CyberNET.</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block">
+                            <div class="main-menu text-center red">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li><a href="{% url 'nikita_sos:index' %}">Главная.</a></li>
+                                        <li><a href="#portfolio">Портфолио.</a></li>
+                                        <li><a href="{% url 'nikita_sos:blog' %}">Блог.</a></li>
+                                        <li><a href="#contact">Контакты.</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-8 col-6">
+                            <div class="header__icon text-right">
+                                <ul>
+                                    <li class="side-toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="fix">
+        <div class="side-info">
+            <button class="side-info-close"><i class="fal fa-times"></i></button>
+            <div class="side-info-content">
+                <div class="mobile-menu d-lg-none"></div>
+                <div class="side-address mb-30">
+                    <div class="contact__list mb-30">
+                        <h4>Адрес офиса</h4>
+                        <p>Г.Ульяновск,ул.Камышинская, д.54</p>
+                    </div>
+                    <div class="contact__list mb-30">
+                        <h4>Номер телефона</h4>
+                        <p>+7 951 091 25 67</p>
+                        <p>+7 951 091 25 66</p>
+                    </div>
+                    <div class="contact__list mb-30">
+                        <h4>Электронная почта</h4>
+                        <p>info@example.com</p>
+                        <p>example.mail@hum.com</p>
+                    </div>
+                </div>
+                <div class="side-portfolio d-none d-lg-block">
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio1.jpg" alt=""></a>
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio2.jpg" alt=""></a>
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio3.jpg" alt=""></a>
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio4.jpg" alt=""></a>
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio5.jpg" alt=""></a>
+                    <a href="portfolio-details.html"><img src="/static/assets/img/portfolio/portfolio6.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="offcanvas-overlay"></div>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer>
+        <div class="footer__top red-bg pt-15 pb-15">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-8">
+                        <div class="logo">
+                            <a href="index.html">CYBERNET.</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-6 col-4">
+                        <div class="go-top f-right">
+                            <a id="scrollToTop" href="#"><i class="fas fa-arrow-up"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom footer-bg pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-12">
+                        <div class="footer__text mb-30">
+                            <h3>Для связи с нами можете воспользоваться формой обратной связи.</h3>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JS here -->
+    <script src="/static/assets/js/vendor/jquery-3.6.0.min.js"></script>
+    <script src="/static/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/assets/js/owl.carousel.min.js"></script>
+    <script src="/static/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/static/assets/js/one-page-nav-min.js"></script>
+    <script src="/static/assets/js/slick.min.js"></script>
+    <script src="/static/assets/js/jquery.meanmenu.min.js"></script>
+    <script src="/static/assets/js/ajax-form.js"></script>
+    <script src="/static/assets/js/wow.min.js"></script>
+    <script src="/static/assets/js/jquery.scrollUp.min.js"></script>
+    <script src="/static/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/static/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/static/assets/js/plugins.js"></script>
+    <script src="/static/assets/js/main.js"></script>
+</body>
+
+</html>
